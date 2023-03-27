@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="NewFolder\**" />
+		<Content Remove="NewFolder\**" />
+		<EmbeddedResource Remove="NewFolder\**" />
+			  <Compile Remove="Viws\**" />
+	  <Content Remove="Viws\**" />
+	  <EmbeddedResource Remove="Viws\**" />
+<None Remove="NewFolder\**" />
+	  <None Remove="Viws\**" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<SupportedPlatform Include="browser" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.9" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Views\" />
+	</ItemGroup>
+
+</Project>

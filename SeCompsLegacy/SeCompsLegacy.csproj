@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="NewFolder\**" />
+		<Content Remove="NewFolder\**" />
+		<EmbeddedResource Remove="NewFolder\**" />
+		<None Remove="NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Remove="Views\Login.razor" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Views\Login.razor" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Classes\" />
+	</ItemGroup>
+
+
+
+</Project>

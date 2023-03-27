@@ -498,6 +498,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "SeComps/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/SeComps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeComps.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -990,6 +1003,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "SeComps/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/SeComps.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeComps.dll": {}
         }
       }
     }
@@ -1753,12 +1779,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SeComps/1.0.0": {
+      "type": "project",
+      "path": "../SeComps/SeComps.csproj",
+      "msbuildProject": "../SeComps/SeComps.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 6.0.9",
-      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.9"
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.9",
+      "SeComps >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1792,7 +1824,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
+              "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

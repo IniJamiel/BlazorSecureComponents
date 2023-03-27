@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "vWdC9ewj27ad3lhntrcV6aoEinwBdFFgbL7NNc3a/J8=",
+  "Source": "SeComps",
+  "BasePath": "_content/SeComps",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SeComps\\wwwroot",
+      "Source": "SeComps",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\wwwroot\\",
+      "BasePath": "_content/SeComps",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SeComps.styles.css",
+      "SourceId": "SeComps",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/SeComps",
+      "RelativePath": "SeComps.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SeComps.styles.css"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SeComps.bundle.scp.css",
+      "SourceId": "SeComps",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/SeComps",
+      "RelativePath": "SeComps.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SeComps.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\wwwroot\\background.png",
+      "SourceId": "SeComps",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\wwwroot\\",
+      "BasePath": "_content/SeComps",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "SeComps",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\wwwroot\\",
+      "BasePath": "_content/SeComps",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    }
+  ]
+}
