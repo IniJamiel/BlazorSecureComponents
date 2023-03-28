@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj": {}
+    "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj": {}
   },
   "projects": {
-    "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj": {
+    "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj",
+        "projectUniqueName": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj",
         "projectName": "SecureBackEndAuthorizer",
-        "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj",
-        "packagesPath": "C:\\Users\\Valerie\\.nuget\\packages\\",
-        "outputPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\obj\\",
+        "projectPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj",
+        "packagesPath": "C:\\Users\\izra.giffari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Users\\izra.giffari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://r3app-server:5400/v3/index.json": {},
+          "http://r3app-server:5500/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,8 +51,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
