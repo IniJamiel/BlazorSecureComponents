@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BEAPIDemo", "BEAPIDemo\BEAP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeCompsLegacy", "SecureLoginComponents\SeCompsLegacy.csproj", "{35A82778-36D5-45B5-880F-09B978FC8FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeComps", "SeComps\SeComps.csproj", "{76B53D27-53DA-4748-934B-E23027E61314}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeComps", "SeComps\SeComps.csproj", "{76B53D27-53DA-4748-934B-E23027E61314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

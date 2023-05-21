@@ -861,19 +861,19 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-US0d\/d5U7RxipsfXC7X2H145xbYsW16VPlQChPuoT6g=",
+      "hash": "sha256-wkyl9Kl1V3MT3ENJmAO\/eG+QvXn\/AJ9xBE3keO304ew=",
       "url": "_framework\/SeComps.dll"
     },
     {
-      "hash": "sha256-0IDUg8cYLl6atODY8P8eA1I0\/gWMGEdA8SxbF56hkOE=",
+      "hash": "sha256-6um5+g3UjP\/fWLjCKC0lR0XVs3eT3y6Z2+upFpUNqrg=",
       "url": "_framework\/SeComps.pdb"
     },
     {
-      "hash": "sha256-1bjZN\/JyL5rN5pGv95WXl\/psygZQxYnMiRXKEILvQGk=",
+      "hash": "sha256-mGr16qbDfJJZ988TBEz5F+JuJbJk+zn3Sq6u1YoidLw=",
       "url": "_framework\/FEBlazorDemo.dll"
     },
     {
-      "hash": "sha256-357kUmnN3UlAHh0Wg1bUoctTYMTaE\/pwSK7ueajNXWo=",
+      "hash": "sha256-dFJbxlOnrrsdKryTZwtenfmepdcENmgtBLwWH16icjA=",
       "url": "_framework\/FEBlazorDemo.pdb"
     },
     {
@@ -881,7 +881,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-wguFQcZ8O\/vomiItC51bwCQ4MvYtueEhvcbkIp4eGM4=",
+      "hash": "sha256-nfWKF5dmB2bGSWFKQep9uYqm5Ta2bjqny8ryhnoflro=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -897,5 +897,5 @@
       "url": "_content\/SeComps\/exampleJsInterop.js"
     }
   ],
-  "version": "fPC3f53D"
+  "version": "Xp4uhqYO"
 };

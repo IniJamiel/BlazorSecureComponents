@@ -7,14 +7,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Remove="NewFolder\**" />
-		<Content Remove="NewFolder\**" />
-		<EmbeddedResource Remove="NewFolder\**" />
-			  <Compile Remove="Viws\**" />
-	  <Content Remove="Viws\**" />
-	  <EmbeddedResource Remove="Viws\**" />
-<None Remove="NewFolder\**" />
-	  <None Remove="Viws\**" />
+		<Compile Remove="Viws\**" />
+		<Content Remove="Viws\**" />
+		<EmbeddedResource Remove="Viws\**" />
+		<None Remove="Viws\**" />
 	</ItemGroup>
 
 
@@ -24,10 +20,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.9" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="Views\" />
 	</ItemGroup>
 
 </Project>
