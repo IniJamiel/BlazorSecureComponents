@@ -196,14 +196,14 @@
       "mscorlib.dll": "sha256-MnMyZHtcymf0sLxXeFBbQZVsdNdxT0GXJaa9t3ZdSek=",
       "netstandard.dll": "sha256-+SGdnDhVMiZ9hq0EsYwJ+mcK0odf3bAtXnSKLorGDCs=",
       "System.Private.CoreLib.dll": "sha256-mqfalNg3wC8XHlyA+j5ioNcnc0kt4prNudKdyJoaYaU=",
-      "SeComps.dll": "sha256-koOT3r4nlvzXsVdyK6WbAV7FxgaX0XUktpoQx2BjwAc=",
+      "SeComps.dll": "sha256-SgUF4shmPQA28OfETlr+kbYO1Zu38iy4hlw0fR0Bc44=",
       "FEBlazorDemo.dll": "sha256-oNOM79eZw9b54juUpYh6K+62J5J302GeAMvkaCqURuo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "SeComps.pdb": "sha256-LtDyZ8r6hCncAw3ShCz\/bkoYNPQ1noT3enSx\/PClodA=",
+      "SeComps.pdb": "sha256-FpAf+M++FijWEFtajFtjFfhJ3b+cjo\/hm\/BuJPyWhAo=",
       "FEBlazorDemo.pdb": "sha256-tIW9+55euPW0U1JFJgUZi9P0kEdTZBS40f0Yy2xkIsA="
     },
     "runtime": {

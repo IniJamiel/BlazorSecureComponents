@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj": {}
+    "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj": {
+    "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj",
+        "projectUniqueName": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj",
         "projectName": "FEBlazorDemo",
-        "projectPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj",
-        "packagesPath": "C:\\Users\\izra.giffari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\",
+        "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj",
+        "packagesPath": "C:\\Users\\Valerie\\.nuget\\packages\\",
+        "outputPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Users\\Valerie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\izra.giffari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,16 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://r3app-server:5400/v3/index.json": {},
-          "http://r3app-server:5500/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
-                "projectPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj"
+              "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
+                "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj"
               }
             }
           }
@@ -66,14 +64,15 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.7, 6.0.7]"
+              "version": "[6.0.9, 6.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -90,21 +89,21 @@
         }
       }
     },
-    "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
+    "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
+        "projectUniqueName": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
         "projectName": "SeComps",
-        "projectPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
-        "packagesPath": "C:\\Users\\izra.giffari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\izra.giffari\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\obj\\",
+        "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
+        "packagesPath": "C:\\Users\\Valerie\\.nuget\\packages\\",
+        "outputPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Users\\Valerie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\izra.giffari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -112,8 +111,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://r3app-server:5400/v3/index.json": {},
-          "http://r3app-server:5500/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -143,7 +140,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -152,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
