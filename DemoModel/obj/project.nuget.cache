@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eliprnOvIb+9VIVWKqGX9FNB35dgCnGZUtjzwYUpJQlD9iPWmzj+imPvxa0y/ZlzF4ysJHFWTanQlazQSkWr5w==",
+  "success": true,
+  "projectFilePath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\DemoModel\\DemoModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.argon2\\1.1.12\\isopoh.cryptography.argon2.1.1.12.nupkg.sha512",
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.blake2b\\1.1.12\\isopoh.cryptography.blake2b.1.1.12.nupkg.sha512",
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.securearray\\1.1.12\\isopoh.cryptography.securearray.1.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DemoModel\DemoModel.csproj" />
     <ProjectReference Include="..\SeComps\SeComps.csproj" />
   </ItemGroup>
 

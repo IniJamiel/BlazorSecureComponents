@@ -1,0 +1,12 @@
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\bin\Debug\net6.0\CommonModelsLib.deps.json
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\bin\Debug\net6.0\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\bin\Debug\net6.0\CommonModelsLib.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.csproj.AssemblyReference.cache
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.GeneratedMSBuildEditorConfig.editorconfig
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.AssemblyInfoInputs.cache
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.AssemblyInfo.cs
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.csproj.CoreCompileInputs.cache
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\refint\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\CommonModelsLib.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\CommonModels\obj\Debug\net6.0\ref\CommonModelsLib.dll

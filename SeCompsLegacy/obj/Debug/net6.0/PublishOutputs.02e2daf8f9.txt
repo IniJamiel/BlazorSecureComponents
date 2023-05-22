@@ -1,3 +1,0 @@
-F:\SkripsiBos\SkripsiGantengIzJ\SecureLoginComponents\bin\Debug\net6.0\publish\SecureLoginComponents.dll
-F:\SkripsiBos\SkripsiGantengIzJ\SecureLoginComponents\bin\Debug\net6.0\publish\SecureLoginComponents.deps.json
-F:\SkripsiBos\SkripsiGantengIzJ\SecureLoginComponents\bin\Debug\net6.0\publish\SecureLoginComponents.pdb

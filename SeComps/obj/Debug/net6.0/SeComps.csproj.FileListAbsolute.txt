@@ -16,3 +16,8 @@ F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\SeComps.dll
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\refint\SeComps.dll
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\SeComps.pdb
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\ref\SeComps.dll
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.SeComps.Microsoft.AspNetCore.StaticWebAssets.props
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.build.SeComps.props
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SeComps.props
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SeComps.props
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets.pack.json

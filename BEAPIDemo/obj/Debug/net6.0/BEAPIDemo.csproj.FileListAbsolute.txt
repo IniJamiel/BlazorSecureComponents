@@ -25,3 +25,8 @@ F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\refint\BEAPIDemo.dll
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\BEAPIDemo.pdb
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\BEAPIDemo.genruntimeconfig.cache
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\ref\BEAPIDemo.dll
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\staticwebassets\msbuild.BEAPIDemo.Microsoft.AspNetCore.StaticWebAssets.props
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\staticwebassets\msbuild.build.BEAPIDemo.props
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BEAPIDemo.props
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BEAPIDemo.props
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\obj\Debug\net6.0\staticwebassets.pack.json

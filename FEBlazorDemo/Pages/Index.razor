@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using FEBlazorDemo.Models
+@using DemoModel
 
 
 <PageTitle>Index</PageTitle>
@@ -12,4 +13,11 @@ You are not logged in
 
 <Login DivClass="w-50" />
 
-<RegisterModular DivClass="w-50" ObjType="new Example()"  TitleText="Register"></RegisterModular>
+<RegisterModular DivClass="w-50" Object="userReg" TitleText="Register"></RegisterModular>
+
+
+@code
+{
+    public User userReg = new User();
+
+}

@@ -1,0 +1,15 @@
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\bin\Debug\net6.0\DemoModel.deps.json
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\bin\Debug\net6.0\DemoModel.dll
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\bin\Debug\net6.0\DemoModel.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.csproj.AssemblyReference.cache
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.AssemblyInfoInputs.cache
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.AssemblyInfo.cs
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.csproj.CoreCompileInputs.cache
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.dll
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\refint\DemoModel.dll
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\ref\DemoModel.dll
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\bin\Debug\net6.0\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\bin\Debug\net6.0\CommonModelsLib.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\DemoModel\obj\Debug\net6.0\DemoModel.csproj.CopyComplete

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FEPJDzcO4gMx6gAMbMlPWOfzk4LVLuJ//StUgNiGDgdlYWM6LBAGJ4VLgASaHFr6D4ABUPQP806gAUXNp7Qwcw==",
+  "dgSpecHash": "etoBn0DxBOQBGc+CCxlSk3j1vsfs2geR1wS9c1M0/JztFnod7LZv6u7+ljeRSPWmQ9oC832Y8r8ctEN4NgMvcw==",
   "success": true,
   "projectFilePath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\FEBlazorDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.argon2\\1.1.12\\isopoh.cryptography.argon2.1.1.12.nupkg.sha512",
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.blake2b\\1.1.12\\isopoh.cryptography.blake2b.1.1.12.nupkg.sha512",
+    "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.securearray\\1.1.12\\isopoh.cryptography.securearray.1.1.12.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\microsoft.aspnetcore.components.6.0.9.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.9\\microsoft.aspnetcore.components.analyzers.6.0.9.nupkg.sha512",
@@ -33,7 +36,7 @@
     "C:\\Users\\Valerie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.9\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.9.nupkg.sha512"
+    "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
