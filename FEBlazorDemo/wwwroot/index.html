@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    window.renderMermaidDiagram = (a) => {
+        var output = document.getElementById("output");
+        var input = a;
+        mermaid.mermaidAPI.render('theGraph', input, function (svgCode) {
+            output.innerHTML = svgCode;
+        });
+    }
+</script>
+
 <html lang="en">
 
 <head>

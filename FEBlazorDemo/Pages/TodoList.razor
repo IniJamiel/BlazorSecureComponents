@@ -1,0 +1,36 @@
+﻿@page "/todoList"
+@using Markdig
+<PageTitle>Todo List</PageTitle>
+
+@markDownString
+
+
+@code {
+
+     string mermaid =    "graph LR \n" +
+            "A[Client] --- B[Load Balancer] \n" +
+            "B-->C[Server01] \n" +
+            "B-->D(Server02) \n";
+
+    MarkupString markDownString = new MarkupString();
+    string mdString = @"
+# Skripsi Ganteng Jamiel dan Izra
+## Todo List
+- [x] Bab 1
+- [ ] Bab 2
+- [ ] Bab 3
+- [ ] Bab 4
+
+
+";
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
+        markDownString = (MarkupString)Markdown.ToHtml(mdString, pipeline);
+    }
+        
+    
+
+
+}

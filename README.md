@@ -1,2 +1,3 @@
 # SkripsiGantengIzJ
- 
+## To Do List:
+

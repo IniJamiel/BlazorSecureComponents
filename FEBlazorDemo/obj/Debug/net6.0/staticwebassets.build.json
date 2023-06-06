@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+/0Ly+GBYHGdcNJzDXlSr/COm5Q4Wuzsdq00EZJrfYE=",
+  "Hash": "8qz7shHeUAghhxOTtQ5BEGF1AwEbSjAJXIcVyw8KipQ=",
   "Source": "FEBlazorDemo",
   "BasePath": "/",
   "Mode": "Root",
@@ -36,6 +36,40 @@
   ],
   "Assets": [
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.Css.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Css.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\anglesharp.css\\0.14.2\\lib\\netstandard2.0\\AngleSharp.Css.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\anglesharp\\0.14.0\\lib\\netstandard2.0\\AngleSharp.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -51,6 +85,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\blazor.boot.json"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor.Markdown.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazor.Markdown.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\blazor.markdown\\1.0.0\\lib\\net5.0\\Blazor.Markdown.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
@@ -223,6 +274,40 @@
       "OriginalItemSpec": "obj\\Debug\\net6.0\\FEBlazorDemo.pdb"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlAgilityPack.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlAgilityPack.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\htmlagilitypack\\1.11.46\\lib\\netstandard2.0\\HtmlAgilityPack.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlSanitizer.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlSanitizer.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\htmlsanitizer\\5.0.376\\lib\\netstandard2.0\\HtmlSanitizer.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -340,6 +425,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\isopoh.cryptography.securearray\\1.1.12\\lib\\net6.0\\Isopoh.Cryptography.SecureArray.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\markdig\\0.31.0\\lib\\net6.0\\Markdig.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
@@ -833,6 +935,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ReverseMarkdown.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ReverseMarkdown.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\reversemarkdown\\3.25.0\\lib\\net6.0\\ReverseMarkdown.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\SeComps.dll",
@@ -3861,6 +3980,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ValueTuple.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\19YLj0yN.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlAgilityPack.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlAgilityPack.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlAgilityPack.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\2bRK8IZU.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -3910,6 +4046,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Expressions.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\3GxFNXKc.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazor.Markdown.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor.Markdown.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazor.Markdown.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\3i7gRmgl.gz",
@@ -4420,6 +4573,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\aTvonQtO.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/HtmlSanitizer.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlSanitizer.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\HtmlSanitizer.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\aU1NQUgp.gz",
@@ -5357,6 +5527,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\JWuMPIYL.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/ReverseMarkdown.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ReverseMarkdown.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ReverseMarkdown.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\jWzY+BE4.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -6207,6 +6394,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.16.9o7kcp4zre.js"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\sC+B65pb.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\sdF6jMvP.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -6683,6 +6887,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\vudo1MC3.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AngleSharp.Css.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.Css.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AngleSharp.Css.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\W1ZGqYE+.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -6868,6 +7089,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\Xkq63jKD.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Markdig.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Markdig.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\xN7jga1L.gz",
