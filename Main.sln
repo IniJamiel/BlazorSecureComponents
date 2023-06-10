@@ -16,10 +16,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BEAPIDemo", "BEAPIDemo\BEAP
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeComps", "SeComps\SeComps.csproj", "{76B53D27-53DA-4748-934B-E23027E61314}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23FCA8EA-6965-45EF-BD65-F4DACA06E66D} = {23FCA8EA-6965-45EF-BD65-F4DACA06E66D}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonModelsLib", "CommonModels\CommonModelsLib.csproj", "{23FCA8EA-6965-45EF-BD65-F4DACA06E66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonModelsLib", "CommonModels\CommonModelsLib.csproj", "{23FCA8EA-6965-45EF-BD65-F4DACA06E66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoModel", "DemoModel\DemoModel.csproj", "{5374C703-FBF7-43C9-9D72-945E7F0EC013}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoModel", "DemoModel\DemoModel.csproj", "{5374C703-FBF7-43C9-9D72-945E7F0EC013}"
 	ProjectSection(ProjectDependencies) = postProject
 		{23FCA8EA-6965-45EF-BD65-F4DACA06E66D} = {23FCA8EA-6965-45EF-BD65-F4DACA06E66D}
 	EndProjectSection

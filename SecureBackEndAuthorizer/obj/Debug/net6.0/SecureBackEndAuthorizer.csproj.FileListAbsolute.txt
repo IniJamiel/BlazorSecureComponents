@@ -10,3 +10,6 @@ F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\obj\Debug\net6.0\SecureB
 F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\obj\Debug\net6.0\refint\SecureBackEndAuthorizer.dll
 F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\obj\Debug\net6.0\SecureBackEndAuthorizer.pdb
 F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\obj\Debug\net6.0\ref\SecureBackEndAuthorizer.dll
+F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\bin\Debug\net6.0\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\bin\Debug\net6.0\CommonModelsLib.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\obj\Debug\net6.0\SecureBackEndAuthorizer.csproj.CopyComplete
