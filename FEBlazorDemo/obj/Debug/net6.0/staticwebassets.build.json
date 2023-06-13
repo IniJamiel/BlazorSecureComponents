@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8qz7shHeUAghhxOTtQ5BEGF1AwEbSjAJXIcVyw8KipQ=",
+  "Hash": "G/f8oPqMQKl81qYQUdS5fkHas+V/GfJGiJ614tuCvGk=",
   "Source": "FEBlazorDemo",
   "BasePath": "/",
   "Mode": "Root",
@@ -563,6 +563,91 @@
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\Microsoft.CSharp.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\lib\\net6.0\\Microsoft.EntityFrameworkCore.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\lib\\net6.0\\Microsoft.EntityFrameworkCore.Relational.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Abstractions.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -577,7 +662,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.dll",
@@ -662,7 +747,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -679,7 +764,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -747,7 +832,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -764,7 +849,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
@@ -781,7 +866,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -798,7 +883,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -920,6 +1005,23 @@
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MySqlConnector.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\mysqlconnector\\2.2.5\\lib\\net6.0\\MySqlConnector.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -935,6 +1037,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Pomelo.EntityFrameworkCore.MySql.dll",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Pomelo.EntityFrameworkCore.MySql.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\lib\\net6.0\\Pomelo.EntityFrameworkCore.MySql.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ReverseMarkdown.dll",
@@ -3708,23 +3827,6 @@
       "OriginalItemSpec": "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\+0E3Q3iu.gz",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\+2E2ar2a.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -4405,6 +4507,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\FEBlazorDemo.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\9nC5Zyng.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\9pQ1henC.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -4915,6 +5034,40 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.ServicePoint.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\E32irSc9.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\E7JOc0Xr.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\e9J0QqU8.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -4983,6 +5136,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Quic.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\eZg+s8XR.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\f9QKGNIX.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -5032,6 +5202,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Requests.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\fexqgvtw.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Abstractions.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\fhLI4xbQ.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\fldEm+os.gz",
@@ -5134,6 +5338,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\gFac0NNQ.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\gKoaKkNw.gz",
@@ -5578,6 +5799,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\K5B9OHFb.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\k5vfxA9K.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -5969,6 +6207,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\nQv0U4nN.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Pomelo.EntityFrameworkCore.MySql.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Pomelo.EntityFrameworkCore.MySql.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Pomelo.EntityFrameworkCore.MySql.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\NXQgXci4.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -5986,21 +6241,21 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.dll"
     },
     {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\O2gT8kNv.gz",
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\O3db9RCK.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
       "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\OHQsbmL8.gz",
@@ -6088,6 +6343,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.dll"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\p5NW+6OH.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Caching.Memory.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Caching.Memory.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\PeBHa3X+.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -6171,6 +6443,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.dll"
+    },
+    {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\Qb4NsdTw.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.EntityFrameworkCore.Relational.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.EntityFrameworkCore.Relational.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\qdKvdXNo.gz",
@@ -6394,6 +6683,23 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.16.9o7kcp4zre.js"
     },
     {
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\sb9dUzpe.gz",
+      "SourceId": "FEBlazorDemo",
+      "SourceType": "Computed",
+      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MySqlConnector.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MySqlConnector.dll"
+    },
+    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\sC+B65pb.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -6426,23 +6732,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.dll"
-    },
-    {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\sdwQjGGm.gz",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\SdzzZoln.gz",
@@ -6562,23 +6851,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.RegularExpressions.dll"
-    },
-    {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\tEMEfzqR.gz",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\tEsP1gmh.gz",
@@ -6734,21 +7006,21 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.dll"
     },
     {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\uh++Y5s3.gz",
+      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\udzf1Bq1.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
       "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\UKX2GCQA.gz",
@@ -6938,23 +7210,6 @@
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\mscorlib.dll"
     },
     {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\WeHWqEnn.gz",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\WqDixpKL.gz",
       "SourceId": "FEBlazorDemo",
       "SourceType": "Computed",
@@ -7004,23 +7259,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.dll"
-    },
-    {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\XBj86JaI.gz",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Computed",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\obj\\Debug\\net6.0\\build-gz\\XBun5slG.gz",
@@ -7752,23 +7990,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manifest.json"
-    },
-    {
-      "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "FEBlazorDemo",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\SkripsiBos\\SkripsiGantengIzJ\\FEBlazorDemo\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     },
     {
       "Identity": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SeComps.bundle.scp.css",

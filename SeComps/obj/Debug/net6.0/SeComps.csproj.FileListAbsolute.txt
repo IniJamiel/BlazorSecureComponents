@@ -21,3 +21,6 @@ F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SeComps.props
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SeComps.props
 F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\staticwebassets.pack.json
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\bin\Debug\net6.0\CommonModelsLib.dll
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\bin\Debug\net6.0\CommonModelsLib.pdb
+F:\SkripsiBos\SkripsiGantengIzJ\SeComps\obj\Debug\net6.0\SeComps.csproj.CopyComplete
