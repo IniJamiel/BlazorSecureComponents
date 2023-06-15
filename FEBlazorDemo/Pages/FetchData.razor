@@ -1,10 +1,11 @@
 ﻿@page "/fetchdata"
 @using DemoModel
+@using CommonModelsLib
 @inject HttpClient Http
 
-<RegisterModular DivClass="w-50" Object="userReg" TitleText="Register"></RegisterModular>
+<RegisterModular DivClass="w-50" userObject="userReg" TitleText="Register"></RegisterModular>
 
 
 @code {
-    User userReg = new User();
+    UserBase userReg = new User();
 }

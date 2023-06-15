@@ -1,0 +1,44 @@
+﻿@page "/getJadwal"
+@using DemoModel
+@using Google.Apis.Http
+@using Google.Apis.Services
+@using Google.Apis.Sheets.v4
+@using Google.Apis.Sheets.v4.Data
+
+<h3>GetJadwal</h3>
+
+@code {
+    SheetsService service = new SheetsService(new BaseClientService.Initializer()
+    {
+        ApiKey = "AIzaSyBo_saLxXKPef_RdczswSvODLx4cRC3W1k",
+        ApplicationName = "Jadwals",
+        GZipEnabled = false
+    });
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var data = await getSheets();
+        
+    }
+
+    protected async Task<Spreadsheet> getData()
+    {
+        var a = service.Spreadsheets.Get("1zRfUOLiyXZqkFTxroFGdib4IIZ0CaS2umeIFL_O8Tww");
+        a.IncludeGridData = true;
+        var response = await a.ExecuteAsync();
+
+        return response;
+    }
+
+    private async Task<IList<Sheet>> getSheets()
+    {
+        var data = await getData();
+        var sheets = data.Sheets;
+        foreach (var sheet in sheets)
+        {
+            var a = sheet.Merges[0];
+        }
+        return sheets;
+    }
+}

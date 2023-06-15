@@ -14,6 +14,6 @@ namespace CommonModelsLib.Contexts
         {
 
         }
-
+        public static DbContextOptions<UserContext> options { get; set; }
     }
 }

@@ -191,6 +191,10 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.60.0.3071, )"
+            },
             "Markdig": {
               "target": "Package",
               "version": "[0.31.0, )"

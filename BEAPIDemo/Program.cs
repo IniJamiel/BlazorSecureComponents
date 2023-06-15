@@ -1,6 +1,7 @@
 using System.Reflection;
+using System.Runtime.InteropServices;
 using CommonModelsLib;
-using CommonModelsLib.Contexts;
+using CommonModelsLib.Contexts;using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +12,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+var  MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy => policy.AllowAnyHeader());
+});
 
 builder.Services.AddMvc().AddApplicationPart(Assembly.Load(new AssemblyName("SecureBackEndAuthorizer")));
 
@@ -20,8 +27,8 @@ builder.Services.AddDbContext<UserContext>(options =>
 {
     options.UseMySql(connectionString, serverVersion, a => a.MigrationsAssembly("BEAPIDemo"));
 }, ServiceLifetime.Scoped);
-
-
+UserContext.options =
+    new DbContextOptionsBuilder<UserContext>().UseMySql(connectionString, serverVersion, a => a.MigrationsAssembly("BEAPIDemo")).Options;
 
 var app = builder.Build();
 
@@ -31,11 +38,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();
+
