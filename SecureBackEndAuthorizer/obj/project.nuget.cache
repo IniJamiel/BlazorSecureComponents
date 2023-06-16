@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vTfZ7oqCfTk7Jbrucf5ASouU5xdUKZLmOmtS8HBWFnn+NTEcknXk1wAl7+F60YK55gIC8enedILYAp5cWmheVA==",
+  "dgSpecHash": "7uBnOmtPOqyVdjZU4Cbk9KRWlO2dbzdiTUyZHvuk+Urtpm6RfHot1k6vqvH/rFa8Y8tZLYQqNS5sNSRq7PEu8g==",
   "success": true,
   "projectFilePath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SecureBackEndAuthorizer\\SecureBackEndAuthorizer.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\Valerie\\.nuget\\packages\\otp.net\\1.3.0\\otp.net.1.3.0.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Valerie\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

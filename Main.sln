@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoModel", "DemoModel\Demo
 		{23FCA8EA-6965-45EF-BD65-F4DACA06E66D} = {23FCA8EA-6965-45EF-BD65-F4DACA06E66D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTester", "ConsoleAppTester\ConsoleAppTester.csproj", "{D37925A6-28A4-4553-BB06-78B9736DCCBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{5374C703-FBF7-43C9-9D72-945E7F0EC013}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5374C703-FBF7-43C9-9D72-945E7F0EC013}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5374C703-FBF7-43C9-9D72-945E7F0EC013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

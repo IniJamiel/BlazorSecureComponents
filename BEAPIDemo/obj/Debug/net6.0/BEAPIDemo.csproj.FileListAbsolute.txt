@@ -59,3 +59,4 @@ F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\bin\Debug\net6.0\System.CodeDom.dll
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\bin\Debug\net6.0\System.Text.Json.dll
 F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+F:\SkripsiBos\SkripsiGantengIzJ\BEAPIDemo\bin\Debug\net6.0\Otp.NET.dll

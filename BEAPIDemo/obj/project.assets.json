@@ -387,6 +387,15 @@
           }
         }
       },
+      "Otp.NET/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Otp.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Otp.NET.dll": {}
+        }
+      },
       "Pomelo.EntityFrameworkCore.MySql/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -560,6 +569,7 @@
         "dependencies": {
           "CommonModelsLib": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Otp.NET": "1.3.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
@@ -1123,6 +1133,24 @@
         "logo.png",
         "mysqlconnector.2.2.5.nupkg.sha512",
         "mysqlconnector.nuspec"
+      ]
+    },
+    "Otp.NET/1.3.0": {
+      "sha512": "6XlSlvszByLDLjgDBULNtrexGhRHTrJpikW2x4oMB+Z4i1jPg89ARRSSOoIfYB2ORTdfugguWYLBz2No4lsM6g==",
+      "type": "package",
+      "path": "otp.net/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "icon.png",
+        "lib/net45/Otp.NET.dll",
+        "lib/net6.0/Otp.NET.dll",
+        "lib/netstandard1.3/Otp.NET.dll",
+        "lib/netstandard2.0/Otp.NET.dll",
+        "otp.net.1.3.0.nupkg.sha512",
+        "otp.net.nuspec"
       ]
     },
     "Pomelo.EntityFrameworkCore.MySql/7.0.0": {

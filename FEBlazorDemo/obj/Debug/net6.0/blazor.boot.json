@@ -219,7 +219,7 @@
       "mscorlib.dll": "sha256-C3gpWQMELcHYfrHU\/1agQUvWTtSNs9Ul2suMxcKFnIc=",
       "netstandard.dll": "sha256-CgGkoZQx73t3qchcsu85kgBcgrjNEOiudArOwKNb18k=",
       "System.Private.CoreLib.dll": "sha256-6nUSjiT7okMlkN897OnDypwppYuK7JxTahOClXkAuwE=",
-      "CommonModelsLib.dll": "sha256-4KA63xFI71vuitGD8l3CHpmv34BSxw0ruGHEbNarqaY=",
+      "CommonModelsLib.dll": "sha256-7b3wDxku\/TC6mj0jh+cTBbp5T402xgDJzUtJ9eLA43c=",
       "DemoModel.dll": "sha256-\/JQZZQ78L9AzAT8BMd5245e\/lIIHD61SkLYMhixQJ68=",
       "SeComps.dll": "sha256-\/hh7OvObFosuR6HyNnprcrUnbGeTFEyvNAam+CFkZI8=",
       "FEBlazorDemo.dll": "sha256-\/A7+WUdXEfxgByKqLBPvkytO4sD8nBwJ9smlyc0npkc="
@@ -230,7 +230,7 @@
     "pdb": {
       "DemoModel.pdb": "sha256-5unQ34yhIfm9TmoaBBAGlkNwxQQlTHrd77oCAR9ld8g=",
       "SeComps.pdb": "sha256-znoKZv\/YHLNgTYGqH9tDD+OSW7pIfi2IbSZSlShhIzg=",
-      "CommonModelsLib.pdb": "sha256-8RYO1puzQyXkMHXxrlmo+rYYLXEnAcMUnDj35zPlh68=",
+      "CommonModelsLib.pdb": "sha256-sMjgAzJuZXlZkmV5GCVnYI+c1vumesd5JUjSAwgfLe8=",
       "FEBlazorDemo.pdb": "sha256-\/QO8e57bZiQTYTp58kdwLP7Hk1mTd\/1Mc3IsTWAsdcU="
     },
     "runtime": {
