@@ -5,49 +5,51 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = FEBlazorDemo
 build_property.RootNamespace = FEBlazorDemo
-build_property.ProjectDir = F:\SkripsiBos\SkripsiGantengIzJ\FEBlazorDemo\
+build_property.ProjectDir = C:\Users\izrag\Documents\GitHub\SkripsiGantengIzJ\FEBlazorDemo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\SkripsiBos\SkripsiGantengIzJ\FEBlazorDemo
+build_property.MSBuildProjectDirectory = C:\Users\izrag\Documents\GitHub\SkripsiGantengIzJ\FEBlazorDemo
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/App.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Pages/FetchData.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Pages/GetJadwal.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Pages/GetJadwal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0SmFkd2FsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Pages/Index.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Pages/TodoList.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Pages/TodoList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kb0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Shared/SurveyPrompt.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/_Imports.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Shared/MainLayout.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ovaj95id4u
 
-[F:/SkripsiBos/SkripsiGantengIzJ/FEBlazorDemo/Shared/NavMenu.razor]
+[C:/Users/izrag/Documents/GitHub/SkripsiGantengIzJ/FEBlazorDemo/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-134l4hmja0

@@ -11,6 +11,7 @@ namespace CommonModelsLib
         [RegularExpression("(@)(.+)$")]
         [Required]
         public string Email { get; set; } = "";
+        [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$")]
         [Required]
         public string Password { get; set; } = "";
         [Required]

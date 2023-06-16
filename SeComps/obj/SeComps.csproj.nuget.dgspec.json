@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {}
+    "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {}
   },
   "projects": {
-    "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj": {
+    "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj",
+        "projectUniqueName": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj",
         "projectName": "CommonModelsLib",
-        "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj",
-        "packagesPath": "C:\\Users\\Valerie\\.nuget\\packages\\",
-        "outputPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\obj\\",
+        "projectPath": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj",
+        "packagesPath": "C:\\Users\\izrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Users\\izrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,25 +68,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
+    "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
+        "projectUniqueName": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
         "projectName": "SeComps",
-        "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
-        "packagesPath": "C:\\Users\\Valerie\\.nuget\\packages\\",
-        "outputPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\SeComps\\obj\\",
+        "projectPath": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\SeComps.csproj",
+        "packagesPath": "C:\\Users\\izrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\SeComps\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Users\\Valerie\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Users\\izrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj": {
-                "projectPath": "F:\\SkripsiBos\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj"
+              "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj": {
+                "projectPath": "C:\\Users\\izrag\\Documents\\GitHub\\SkripsiGantengIzJ\\CommonModels\\CommonModelsLib.csproj"
               }
             }
           }
@@ -132,8 +123,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -142,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

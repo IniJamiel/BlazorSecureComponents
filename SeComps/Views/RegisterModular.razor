@@ -1,6 +1,7 @@
 ﻿@using System.Reflection
 @using System.Net.Http.Json
 @using CommonModelsLib
+@using System.ComponentModel.DataAnnotations
 @inject HttpClient Http
 <div class="@DivClass">
     <h2>
@@ -56,6 +57,8 @@
 
     private string ConfirmPassword ="";
     string hasil;
+    
+    [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$")]
     [Parameter]
     public UserBase  userObject { set; get; } = null!;
 
