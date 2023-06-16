@@ -13,6 +13,10 @@
 		<None Remove="Viws\**" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Content Remove="Views\ForgotPassword.razor" />
+	</ItemGroup>
+
 
 	<ItemGroup>
 		<SupportedPlatform Include="browser" />
@@ -24,6 +28,18 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\CommonModels\CommonModelsLib.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <UpToDateCheckInput Remove="Views\ForgotPassword.razor" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <_ContentIncludedByDefault Remove="Views\ForgotPassword.razor" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Views\ForgotPassword.razor" />
 	</ItemGroup>
 
 </Project>

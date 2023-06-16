@@ -1,1 +1,0 @@
-F:\SkripsiBos\SkripsiGantengIzJ\FEBlazorDemo\bin\Debug\net6.0\publish\web.config
