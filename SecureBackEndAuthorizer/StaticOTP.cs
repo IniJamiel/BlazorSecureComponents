@@ -27,6 +27,12 @@ namespace SecureBackEndAuthorizer
             byte[] bytes = Encoding.UTF32.GetBytes(username);
             return new Totp(bytes, step: StaticOTP.timeout, totpSize: StaticOTP.length).VerifyTotp(OTP, out timeStepMatched);
         }
+        public async static Task<bool> VerifyOTPAsync(string username, string OTP)
+        {
+            long timeStepMatched;
+            byte[] bytes = Encoding.UTF32.GetBytes(username);
+            return new Totp(bytes, step: StaticOTP.timeout, totpSize: StaticOTP.length).VerifyTotp(OTP, out timeStepMatched);
+        }
     }
 
 }

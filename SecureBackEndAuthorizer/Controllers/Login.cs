@@ -1,7 +1,10 @@
 ﻿using System.Net.Http.Json;
+using CommonModelsLib;
+using CommonModelsLib.Contexts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace SecureBackEndAuthorizer.Controllers
 {
@@ -11,10 +14,10 @@ namespace SecureBackEndAuthorizer.Controllers
         [HttpPost]
         [AllowAnonymous]
         [EnableCors]
-        public async Task<string> SetAuthorization()
+        public async Task<UserBase> LoginTask(string id, string password)
         {
-            Console.WriteLine("masuk ke API dari Class");
-            return "Sukses";
+            var user = await UserContext.Obj.userBases.Where(a => (a.Email == id || a.Username == id) && password.Equals(a.Password)).FirstOrDefaultAsync();
+            return user;
         }
     }
 }
