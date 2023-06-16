@@ -973,11 +973,11 @@
       "url": "_framework\/CommonModelsLib.pdb"
     },
     {
-      "hash": "sha256-JhIfhPLAeUpTVVXgapZsnj7flkYmEhYmAkyeiurRik4=",
+      "hash": "sha256-N0WwY5N+O4O6s+FddE85tyLWXIgC4vqD8b5A3ptOUxs=",
       "url": "_framework\/FEBlazorDemo.dll"
     },
     {
-      "hash": "sha256-O6OZ9Aty7bjQ2779bvVzhpuRFfQkB3hvlynhyYP0eBU=",
+      "hash": "sha256-hLbJ3fzg+cmlfV9zsu4ZHDdiHYnVE4+h44P0SaU0p58=",
       "url": "_framework\/FEBlazorDemo.pdb"
     },
     {
@@ -985,7 +985,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-tzTj\/48NYAW8IifJ8y588JHyeBsZCIqjNpxDnBzSZMA=",
+      "hash": "sha256-QxSFtLYs5SiHHq0qR6Dx8J+UJBGYjNH1SLlUNPIrLxk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1001,5 +1001,5 @@
       "url": "_content\/SeComps\/exampleJsInterop.js"
     }
   ],
-  "version": "5XPExnqU"
+  "version": "8bA1INUm"
 };
