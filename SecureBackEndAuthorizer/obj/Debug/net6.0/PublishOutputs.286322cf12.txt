@@ -1,3 +1,0 @@
-F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\bin\Debug\net6.0\publish\SecureBackEndAuthorizer.dll
-F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\bin\Debug\net6.0\publish\SecureBackEndAuthorizer.deps.json
-F:\SkripsiBos\SkripsiGantengIzJ\SecureBackEndAuthorizer\bin\Debug\net6.0\publish\SecureBackEndAuthorizer.pdb
