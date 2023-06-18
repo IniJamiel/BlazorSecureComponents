@@ -22,6 +22,9 @@ namespace CommonModelsLib.Contexts
         {
             return await Obj.userBases.Where(a => a.Username == userName).FirstOrDefaultAsync();
         }
-
+        public static async Task<UserBase?> GetUserBaseByEmail(string Email)
+        {
+            return await Obj.userBases.Where(a => a.Email == Email).FirstOrDefaultAsync();
+        }
     }
 }

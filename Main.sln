@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoModel", "DemoModel\Demo
 		{23FCA8EA-6965-45EF-BD65-F4DACA06E66D} = {23FCA8EA-6965-45EF-BD65-F4DACA06E66D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTester", "ConsoleAppTester\ConsoleAppTester.csproj", "{D37925A6-28A4-4553-BB06-78B9736DCCBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTester", "ConsoleAppTester\ConsoleAppTester.csproj", "{D37925A6-28A4-4553-BB06-78B9736DCCBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

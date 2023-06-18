@@ -14,9 +14,21 @@ namespace SecureBackEndAuthorizer.Controllers
         [HttpPost]
         [AllowAnonymous]
         [EnableCors]
-        public async Task<UserBase> LoginTask(string id, string password)
+        public async Task<UserBase?> LoginTask([FromBody] SentLoginObject slo)
         {
-            var user = await UserContext.Obj.userBases.Where(a => (a.Email == id || a.Username == id) && password.Equals(a.Password)).FirstOrDefaultAsync();
+            var user = await UserContext.Obj.userBases.Where(a => (a.Email == slo.Id || a.Username == slo.Id)).FirstOrDefaultAsync();
+            if (user != null)
+            {
+                var cek = Encryption.cekPw(pw: slo.Password, Hashed: user.Password);
+                if (cek)
+                {
+                    user.Password = "";
+                }
+                else
+                {
+                    user = null;
+                }
+            }
             return user;
         }
     }

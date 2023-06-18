@@ -1,13 +1,12 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using CommonModelsLib.Contexts;
 using CommonModelsLib;
-using CommonModelsLib.Contexts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SecureBackEndAuthorizer.Controllers;
-[Route("api/[Controller]")]
-public class VerifOTP : Controller
+
+public class VerifOTPuName : ControllerBase
 {
     [HttpPost]
     [AllowAnonymous]
@@ -15,9 +14,7 @@ public class VerifOTP : Controller
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<bool> VerifOTPTask([FromBody] ResetObj resetOBj)
     {
-        var user = await UserContext.GetUserBaseByEmail(resetOBj.email);
-
-        var returnObj = await StaticOTP.VerifyOTPAsync(user.Username, resetOBj.OTP);
+        var returnObj = await StaticOTP.VerifyOTPAsync(resetOBj.email, resetOBj.OTP);
         return returnObj;
     }
 }

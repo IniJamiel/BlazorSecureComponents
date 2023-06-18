@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,7 +26,7 @@ namespace CommonModelsLib
         {
             List<String> errorList = new List<String>();
             if (!Regex.Match(this.Password,
-                    "/^(?=[^a-z]*[a-z])(?=[^A-Z]*[A-Z])(?=\\D*\\d)(?=[^!#%-]*[!#%])[A-Za-z0-9!#%]{8,32}$/\r\n").Success)
+                    @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$").Success)
             {
                 errorList.Add("Password not viable");
             }
@@ -40,6 +41,10 @@ namespace CommonModelsLib
                 errorList.Add("Phone Number must only contains Numbers");
             }
 
+            if (errorList.Any())
+            {
+                return new Tuple<bool, string>(false, string.Join(", ", errorList));
+            }
             return new Tuple<bool, string>(true, "sukses");
         }
 

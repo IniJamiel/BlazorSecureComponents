@@ -1,42 +1,53 @@
 ﻿@using System.Net.Http.Json
 @using System.Text.Json
 @inject HttpClient Http
-@using CommonModelsLib cml
+@using CommonModelsLib 
+@using SeComps.UtilLib
+cml
 <div class = "@DivClass">
     <h2>
         @TitleText
     </h2>
     <form>
-        <!-- Email input -->
+        @if(!passwordVerified){
         <div class="form-outline mb-4">
             <label class="form-label" for="form2Example1">Email address</label>
-            <input type="email" @bind="so.Id" id="form2Example1" class="form-control" />
+            <input type="email" @bind="ID" id="form2Example1" class="form-control"/>
         </div>
-
-        <!-- Password input -->
         <div class="form-outline mb-4">
             <label class="form-label" for="form2Example2">Password</label>
-            <input type="password" @bind="so.Password" id="form2Example2" class="form-control" />
+            <input type="password" @bind="Password" id="form2Example2" class="form-control"/>
         </div>
-
-        <!-- 2 column grid layout for inline styling -->
         <div class="row mb-4">
             <div class="col d-flex justify-content-center">
-                <!-- Checkbox -->
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked/>
                     <label class="form-check-label" for="form2Example31"> Remember me </label>
                 </div>
             </div>
 
             <div class="col">
-                <!-- Simple link -->
-                <a href="#!">Forgot password?</a>
+                <a href="@ForgotPasswordRef">Forgot password?</a>
             </div>
         </div>
-
         <!-- Submit button -->
         <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="login">Sign in</button>
+        }
+        @if (!oTPVerified && passwordVerified)
+        {
+            <div class="form-outline mb-4">
+                <label class="form-label" for="otp">Input The Code Sent to Your Email here</label>
+                <div id="otp" class="inputs d-flex flex-row justify-content-center mt-2">
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[0]" id="first" maxlength="1"/>
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[1]" id="second" maxlength="1"/>
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[2]" id="third" maxlength="1"/>
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[3]" id="fourth" maxlength="1"/>
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[4]" id="fifth" maxlength="1"/>
+                    <input class="m-2 text-center form-control rounded" type="text" @bind="otp[5]" id="sixth" maxlength="1"/>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="loginOTP">Sign in</button>
+        }
     </form>
 </div>
 @code
@@ -45,16 +56,70 @@
     public string DivClass { set; get; } = "";
     [Parameter]
     public string TitleText { set; get; } = "Login";
+    [Parameter]
+    public string ForgotPasswordRef { set; get; } = "/ForgotPassword";
 
-    
-    private  SentObject so =
-    new ("email");
+    private char[] otp = new char[6];
+    private string stringOTP => new(otp);
 
+
+    private string ID = "";
+    private string Password = "";
+    private string PasswordEncrypted = "";
+
+    [Parameter]
+    public bool EnableOTP { set; get; } = true;
+
+    private  SentLoginObject so = new ();
+
+    private bool passwordVerified = false;
+    private bool oTPVerified = false;
     private async Task login()
     {
-        Console.WriteLine(Http.BaseAddress);
-        Http.BaseAddress = new Uri("localhost:7028");
-        Console.WriteLine(Http.BaseAddress);
-        var response = await Http.PostAsJsonAsync("localhost:7028", so);
+        so.Password = Password;
+        so.Id = ID;
+        var response = await Http.PostAsJsonAsync("api/login", so);
+        var a = await response.Content.ReadAsStringAsync();
+        var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+        UserBase? user = JsonSerializer.Deserialize<UserBase?>(a, options);
+        
+        UserBase? usera = string.IsNullOrEmpty(a) ? null : JsonSerializer.Deserialize<UserBase?>(a, options);
+        if (user != null)
+        {
+            passwordVerified = true;
+            await Http.PostAsJsonAsync("api/ReqOTP", user.Username);
+            StateManager.setActiveUserName(user.Username);
+            PasswordEncrypted = so.Password;
+        }
+        else
+        {
+            passwordVerified = false;
+        }
+    }
+
+    private async Task loginOTP()
+    {
+        var resetObj = new ResetObj();
+        resetObj.email = StateManager.GetActiveUsername();
+        resetObj.OTP = stringOTP;
+        var a = await Http.PostAsJsonAsync("api/verifOTPuName", resetObj);
+        bool verified = await JsonSerializer.DeserializeAsync<bool>(await a.Content.ReadAsStreamAsync());
+        if (verified)
+        {
+            var response = await Http.PostAsJsonAsync("api/login", so);
+            
+            UserBase? user = await JsonSerializer.DeserializeAsync<UserBase?>(await response.Content.ReadAsStreamAsync());
+            if (user != null)
+            {
+                StateManager.setActiveUserBase(user);
+                oTPVerified = true;
+            }else
+            {
+                passwordVerified = false;
+            }
+        }
     }
 }
