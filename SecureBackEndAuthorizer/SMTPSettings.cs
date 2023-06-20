@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,5 +15,6 @@ namespace SecureBackEndAuthorizer
         public static Int32 Port { get; set; }
         public static string Header { get; set; } = "OTP CODE";
         public static string Body { get; set; } = "Here is your OTP Code : ";
+        
     }
 }

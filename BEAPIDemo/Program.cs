@@ -8,7 +8,6 @@ using SecureBackEndAuthorizer;
 using SmtpServer;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 
 
@@ -25,7 +24,9 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddMvc().AddApplicationPart(Assembly.Load(new AssemblyName("SecureBackEndAuthorizer")));
 
-var connectionString = "server=localhost;user=root;password=sa;database=SkripsiBos";
+
+
+var connectionString = JsonRead.AppSetting.GetValue<string>(MainSettings.Database);
 var serverVersion = new MySqlServerVersion(new Version(10, 11, 3));
 builder.Services.AddDbContext<UserContext>(options =>
 {
@@ -33,13 +34,10 @@ builder.Services.AddDbContext<UserContext>(options =>
 }, ServiceLifetime.Scoped);
 UserContext.options =
     new DbContextOptionsBuilder<UserContext>().UseMySql(connectionString, serverVersion, a => a.MigrationsAssembly("BEAPIDemo")).Options;
-
-SMTPSettings.SenderEmail = "isaiahjamiel2@gmail.com";
-SMTPSettings.SenderPassword = "wqcwdxdxtqqwrhxj";
-SMTPSettings.Server = "smtp.gmail.com";
-SMTPSettings.Port = 587;
-
-
+SMTPSettings.SenderEmail = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPSender);
+SMTPSettings.SenderPassword = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPPassword);
+SMTPSettings.Server = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPServer);
+SMTPSettings.Port = JsonRead.AppSetting.GetValue<int>(MainSettings.SMTPPort);
 
 var app = builder.Build();
 
