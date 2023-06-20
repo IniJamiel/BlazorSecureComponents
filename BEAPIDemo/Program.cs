@@ -24,8 +24,6 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddMvc().AddApplicationPart(Assembly.Load(new AssemblyName("SecureBackEndAuthorizer")));
 
-
-
 var connectionString = JsonRead.AppSetting.GetValue<string>(MainSettings.Database);
 var serverVersion = new MySqlServerVersion(new Version(10, 11, 3));
 builder.Services.AddDbContext<UserContext>(options =>
@@ -33,7 +31,8 @@ builder.Services.AddDbContext<UserContext>(options =>
     options.UseMySql(connectionString, serverVersion, a => a.MigrationsAssembly("BEAPIDemo"));
 }, ServiceLifetime.Scoped);
 UserContext.options =
-    new DbContextOptionsBuilder<UserContext>().UseMySql(connectionString, serverVersion, a => a.MigrationsAssembly("BEAPIDemo")).Options;
+    new DbContextOptionsBuilder<UserContext>().UseMySql(connectionString, serverVersion, a
+        => a.MigrationsAssembly("BEAPIDemo")).Options;
 SMTPSettings.SenderEmail = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPSender);
 SMTPSettings.SenderPassword = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPPassword);
 SMTPSettings.Server = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPServer);
