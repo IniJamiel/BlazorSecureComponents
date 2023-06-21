@@ -5,6 +5,7 @@
 @using System.Text
 @using System.Text.Json
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 <div class="@DivClass">
     <h2>
         @TitleText
@@ -31,7 +32,7 @@
         <div class="form-outline mb-4">
                     <label class="form-label" for="PhoneNumber">Phone Number</label>
                     <input 
-                        type="password" @bind="userObject.PhoneNumber"
+                        type="tel" @bind="userObject.PhoneNumber"
                         id="PhoneNumber" class="form-control" />
         </div>
         <div class="form-outline mb-4">
@@ -45,7 +46,7 @@
                 type="password" @bind="ConfirmPassword"
                 id="PasswordConfirm" class="form-control" />
         </div>
-        <label class="alert">@errorMessage</label>
+        <label class="text-alert">@errorMessage</label>
         <button type="button" @onclick="Register" class="btn btn-primary w-100 btn-block mb-4">Register</button>
         <label>@hasil</label>
     </form>
@@ -62,36 +63,38 @@
     string hasil;
     
     [Parameter]
+    public string RedirectSuccessRegister { set; get; } = "/";
+    
+    [Parameter]
     public UserBase  userObject { set; get; } = null!;
 
     private string errorMessage = "";
 
     private async Task Register()
     {
-       
+        userObject.Password = passsword;
         var validate =  userObject.Validate();
-        if (ConfirmPassword != userObject.Password)
+        if (ConfirmPassword != passsword)
         {
             errorMessage = "Confirm password is different";
         }
-        if (!validate.Item1)
+        else if (!validate.Item1)
         {
             errorMessage = validate.Item2;
             return;
         }
-        userObject.Password = await Encryption.Encrypt(passsword);
+        userObject.Password = passsword;
 
         var content = new StringContent(JsonSerializer.Serialize(userObject), Encoding.UTF8, "application/json");
         var a = await Http.PostAsync("api/Register", content);
 
-
-        //var a = await Http.PostAsJsonAsync("api/Register", userObject);
         hasil = a.ToString();
         
         if(a.IsSuccessStatusCode)
         {
             userObject = new UserBase();
             errorMessage = "User Created";
+            NavigationManager.NavigateTo(RedirectSuccessRegister);
         }
     } 
 }

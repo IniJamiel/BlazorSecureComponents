@@ -19,7 +19,7 @@ namespace SecureBackEndAuthorizer.Controllers
             var user = await UserContext.Obj.userBases.Where(a => (a.Email == slo.Id || a.Username == slo.Id)).FirstOrDefaultAsync();
             if (user != null)
             {
-                var cek = Encryption.cekPw(pw: slo.Password, Hashed: user.Password);
+                var cek = await Encryption.Verify(slo.Password, Hashed: user.Password);
                 if (cek)
                 {
                     user.Password = "";

@@ -21,10 +21,10 @@ public class Register : ControllerBase
     public async Task<long> RegisterTask([FromBody] UserBase obj)
     {
         UserContext uc = new UserContext(UserContext.options);
-        
+        obj.Password = await Encryption.Hash(obj.Password);
         await uc.userBases.AddAsync(obj);
         await uc.SaveChangesAsync();
         return obj.Id;
-        
+
     }
 }

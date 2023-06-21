@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SecureBackEndAuthorizer.Controllers;
-
+[Route("api/[Controller]")]
 public class VerifOTPuName : ControllerBase
 {
     [HttpPost]

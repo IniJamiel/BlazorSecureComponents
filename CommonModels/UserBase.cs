@@ -48,5 +48,10 @@ namespace CommonModelsLib
             return new Tuple<bool, string>(true, "sukses");
         }
 
+        public static bool validatePassword(string password)
+        {
+            return !Regex.Match(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$").Success;
+        }
+
     }
 }

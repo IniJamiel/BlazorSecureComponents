@@ -24,7 +24,7 @@ public class ChangePassword : ControllerBase
             {
                 var userContext = new UserContext(UserContext.options);
                 var changed = await userContext.userBases.Where(a => a.Id == user.Id).FirstOrDefaultAsync();
-                changed.Password = resetObj.Password;
+                changed.Password = await Encryption.Hash(resetObj.Password);
                 int count = await userContext.SaveChangesAsync();
                 if (count >= 0)
                 {

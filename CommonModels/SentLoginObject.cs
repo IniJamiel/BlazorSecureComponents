@@ -12,7 +12,6 @@ namespace CommonModelsLib
         {
 
         }
-        private string type { set; get; }
         public string Id { set; get; } = "";
         public string Password { set; get; } = "";
     }

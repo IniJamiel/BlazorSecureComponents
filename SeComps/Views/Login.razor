@@ -3,7 +3,8 @@
 @inject HttpClient Http
 @using CommonModelsLib 
 @using SeComps.UtilLib
-cml
+@inject NavigationManager NavigationManager
+
 <div class = "@DivClass">
     <h2>
         @TitleText
@@ -19,19 +20,17 @@ cml
             <input type="password" @bind="Password" id="form2Example2" class="form-control"/>
         </div>
         <div class="row mb-4">
-            <div class="col d-flex justify-content-center">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked/>
-                    <label class="form-check-label" for="form2Example31"> Remember me </label>
-                </div>
-            </div>
 
             <div class="col">
                 <a href="@ForgotPasswordRef">Forgot password?</a>
             </div>
         </div>
         <!-- Submit button -->
-        <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="login">Sign in</button>
+            <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="login">Sign in</button>
+            @if (passwordWrong)
+            {
+                <p class="text-danger">*Credential is Incorrect!</p>
+            }
         }
         @if (!oTPVerified && passwordVerified)
         {
@@ -46,6 +45,10 @@ cml
                     <input class="m-2 text-center form-control rounded" type="text" @bind="otp[5]" id="sixth" maxlength="1"/>
                 </div>
             </div>
+            @if (!otpVerif)
+            {
+                <p class="text-danger">*OTP is Wrong!</p>
+            }
             <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="loginOTP">Sign in</button>
         }
     </form>
@@ -58,10 +61,14 @@ cml
     public string TitleText { set; get; } = "Login";
     [Parameter]
     public string ForgotPasswordRef { set; get; } = "/ForgotPassword";
+    [Parameter]
+    public string RedirectSuccessLogin { set; get; } = "/todoList";
 
     private char[] otp = new char[6];
     private string stringOTP => new(otp);
 
+    private bool otpVerif;
+    private bool passwordWrong = false;
 
     private string ID = "";
     private string Password = "";
@@ -84,19 +91,19 @@ cml
             {
                 PropertyNameCaseInsensitive = true
             };
-        UserBase? user = JsonSerializer.Deserialize<UserBase?>(a, options);
-        
         UserBase? usera = string.IsNullOrEmpty(a) ? null : JsonSerializer.Deserialize<UserBase?>(a, options);
-        if (user != null)
+        if (usera != null)
         {
             passwordVerified = true;
-            await Http.PostAsJsonAsync("api/ReqOTP", user.Username);
-            StateManager.setActiveUserName(user.Username);
+            passwordWrong = false;
+            await Http.PostAsJsonAsync("api/ReqOTP", usera.Username);
+            StateManager.setActiveUserName(usera.Username);
             PasswordEncrypted = so.Password;
         }
         else
         {
             passwordVerified = false;
+            passwordWrong = true;
         }
     }
 
@@ -105,8 +112,8 @@ cml
         var resetObj = new ResetObj();
         resetObj.email = StateManager.GetActiveUsername();
         resetObj.OTP = stringOTP;
-        var a = await Http.PostAsJsonAsync("api/verifOTPuName", resetObj);
-        bool verified = await JsonSerializer.DeserializeAsync<bool>(await a.Content.ReadAsStreamAsync());
+        var a = await Http.PostAsJsonAsync("api/VerifOTPuName", resetObj);
+        bool verified = otpVerif = await JsonSerializer.DeserializeAsync<bool>(await a.Content.ReadAsStreamAsync());
         if (verified)
         {
             var response = await Http.PostAsJsonAsync("api/login", so);
@@ -116,6 +123,7 @@ cml
             {
                 StateManager.setActiveUserBase(user);
                 oTPVerified = true;
+                NavigationManager.NavigateTo(RedirectSuccessLogin);
             }else
             {
                 passwordVerified = false;
