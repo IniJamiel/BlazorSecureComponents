@@ -13,5 +13,7 @@ namespace SecureBackEndAuthorizer
         public static string SMTPPort = "ConnectionStrings:SMTP:Port";
         public static string SMTPSender = "ConnectionStrings:SMTP:SenderEmail";
         public static string SMTPPassword = "ConnectionStrings:SMTP:SenderPassword";
+
+        public static string JWTSecretKey = "RONALD00OSIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU";
     }
 }

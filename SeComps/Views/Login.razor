@@ -1,10 +1,11 @@
 ﻿@using System.Net.Http.Json
 @using System.Text.Json
+@using Blazored.LocalStorage
 @inject HttpClient Http
 @using CommonModelsLib 
 @using SeComps.UtilLib
 @inject NavigationManager NavigationManager
-
+@inject ILocalStorageService LocalStorageService
 <div class = "@DivClass">
     <h2>
         @TitleText
@@ -117,16 +118,20 @@
         if (verified)
         {
             var response = await Http.PostAsJsonAsync("api/login", so);
-            
-            UserBase? user = await JsonSerializer.DeserializeAsync<UserBase?>(await response.Content.ReadAsStreamAsync());
+            var option = new JsonSerializerOptions();
+            option.PropertyNameCaseInsensitive = true;
+            UserBaseWithToken? user = await JsonSerializer.DeserializeAsync<UserBaseWithToken?>(await response.Content.ReadAsStreamAsync(), option);
             if (user != null)
             {
+                var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
+                await jwtBearerTokenHandler.SetToken(user.Token);
+            
                 StateManager.setActiveUserBase(user);
                 oTPVerified = true;
                 NavigationManager.NavigateTo(RedirectSuccessLogin);
             }else
             {
-                passwordVerified = false;
+                passwordVerified = false; 
             }
         }
     }

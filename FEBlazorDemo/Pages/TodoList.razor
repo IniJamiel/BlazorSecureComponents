@@ -1,8 +1,19 @@
 ﻿@page "/todoList"
 @using Markdig
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.Authorization
+@attribute [Authorize]
 <PageTitle>Todo List</PageTitle>
-
-@markDownString
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <Authorized>
+            @markDownString
+        </Authorized>
+        <NotAuthorized>
+            <RedirectToLogin />
+        </NotAuthorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
 
 
 @code {

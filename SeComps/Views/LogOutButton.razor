@@ -1,0 +1,19 @@
+﻿@using Blazored.LocalStorage
+@inject ILocalStorageService LocalStorageService
+@inject NavigationManager NavigationManager
+
+<div class="nav-item px-3">
+    <NavLink class="nav-link" @onclick="logOut" >
+        <span class="oi oi-list-rich" aria-hidden="true"></span> LogOut
+    </NavLink>
+</div>
+@code {
+    [Parameter]
+    public string RedirectSuccessLogout { set; get; } = "/";
+    private async void logOut()
+    {
+        var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
+        await jwtBearerTokenHandler.ClearToken();
+        NavigationManager.NavigateTo(RedirectSuccessLogout);
+    }
+}
