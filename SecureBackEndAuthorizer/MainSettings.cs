@@ -15,5 +15,7 @@ namespace SecureBackEndAuthorizer
         public static string SMTPPassword = "ConnectionStrings:SMTP:SenderPassword";
 
         public static string JWTSecretKey = "RONALD00OSIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU";
+        public static string JWTAudience = "Penyidang";
+        public static string JWTIssuer = "Jamiel";
     }
 }

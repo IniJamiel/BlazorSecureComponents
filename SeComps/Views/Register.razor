@@ -46,8 +46,8 @@
                 type="password" @bind="ConfirmPassword"
                 id="PasswordConfirm" class="form-control" />
         </div>
-        <label class="text-alert">@errorMessage</label>
-        <button type="button" @onclick="Register" class="btn btn-primary w-100 btn-block mb-4">Register</button>
+        <label class="text-danger">@errorMessage</label>
+        <button type="button" @onclick="RegisterTask" class="btn btn-primary w-100 btn-block mb-4">Register</button>
         <label>@hasil</label>
     </form>
 </div>d
@@ -70,13 +70,14 @@
 
     private string errorMessage = "";
 
-    private async Task Register()
+    private async Task RegisterTask()
     {
         userObject.Password = passsword;
         var validate =  userObject.Validate();
         if (ConfirmPassword != passsword)
         {
             errorMessage = "Confirm password is different";
+            return;
         }
         else if (!validate.Item1)
         {

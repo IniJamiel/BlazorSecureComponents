@@ -37,9 +37,11 @@ namespace SecureBackEndAuthorizer.Controllers
                         {
                             new Claim(ClaimTypes.Name, user.Username.ToString())
                         }),
-                        Expires = DateTime.UtcNow.AddHours(5),
+                        Expires = DateTime.UtcNow.AddHours(2),
                         SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
-                            SecurityAlgorithms.HmacSha256Signature)
+                            SecurityAlgorithms.HmacSha256Signature),
+                        Audience = MainSettings.JWTAudience,
+                        Issuer = MainSettings.JWTIssuer,
                     };
                     var token = tokenHandler.CreateToken(tokenDescriptor);
                     var jwtToken = tokenHandler.WriteToken(token);

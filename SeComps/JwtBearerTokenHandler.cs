@@ -40,7 +40,6 @@ namespace SeComps
             {
                 request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", savedToken);
             }
-
             return await base.SendAsync(request, cancellationToken);
         }
     }

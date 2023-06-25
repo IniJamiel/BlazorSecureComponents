@@ -32,7 +32,6 @@ public class ChangePassword : ControllerBase
                 }
             }
         }
-
         return false;
     }
 }

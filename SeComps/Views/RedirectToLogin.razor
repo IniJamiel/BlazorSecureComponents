@@ -1,11 +1,18 @@
-﻿@inject NavigationManager NavigationManager
+﻿@using Microsoft.JSInterop
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JsRuntime
+
 <h3>RedirectToLogin</h3>
 
 @code {
     [Parameter]
     public string RedirectSuccessLogin { set; get; } = "/";
-    protected override void OnInitialized()
+
+    protected override async Task OnInitializedAsync()
     {
-        NavigationManager.NavigateTo(RedirectSuccessLogin);
+        {
+            await JsRuntime.InvokeVoidAsync("alert", "Logged Out/Session Expired. Please Log In!"); // Alert
+            NavigationManager.NavigateTo(RedirectSuccessLogin);
+        }
     }
 }

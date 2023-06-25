@@ -1,12 +1,14 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Text;
 using CommonModelsLib;
 using CommonModelsLib.Contexts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using SecureBackEndAuthorizer;
 using SmtpServer;
-
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
@@ -38,7 +40,28 @@ SMTPSettings.SenderPassword = JsonRead.AppSetting.GetValue<string>(MainSettings.
 SMTPSettings.Server = JsonRead.AppSetting.GetValue<string>(MainSettings.SMTPServer);
 SMTPSettings.Port = JsonRead.AppSetting.GetValue<int>(MainSettings.SMTPPort);
 
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        // Set your token validation parameters
+        ValidateIssuer = true,
+        ValidIssuer =  MainSettings.JWTIssuer,
+        ValidateAudience = true,
+        ValidAudience = MainSettings.JWTAudience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(MainSettings.JWTSecretKey)),
+        ValidateIssuerSigningKey = true
+    };
+});
+
+
 var app = builder.Build();
+
+app.UseAuthentication();
 
 app.Use(async (context, next) =>
 {
