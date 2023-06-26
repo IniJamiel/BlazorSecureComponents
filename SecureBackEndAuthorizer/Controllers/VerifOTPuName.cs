@@ -14,7 +14,7 @@ public class VerifOTPuName : ControllerBase
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<bool> VerifOTPTask([FromBody] ResetObj resetOBj)
     {
-        var returnObj = await StaticOTP.VerifyOTPAsync(resetOBj.email, resetOBj.OTP);
+        var returnObj = await StaticOTP.VerifyOTPAsync(resetOBj.Id, resetOBj.OTP);
         return returnObj;
     }
 }

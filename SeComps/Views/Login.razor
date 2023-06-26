@@ -117,7 +117,7 @@
     private async Task loginOTP()
     {
         var resetObj = new ResetObj();
-        resetObj.email = StateManager.GetActiveUsername();
+        resetObj.Id = StateManager.GetActiveUsername();
         resetObj.OTP = stringOTP;
         var a = await Http.PostAsJsonAsync("api/VerifOTPuName", resetObj);
         bool verified = otpVerif = await JsonSerializer.DeserializeAsync<bool>(await a.Content.ReadAsStreamAsync());
@@ -130,8 +130,8 @@
             if (user != null)
             {
                 var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
-                await jwtBearerTokenHandler.SetToken(user.Token);
-            
+                await jwtBearerTokenHandler.SetTokenPersistent(user.Token);
+                await jwtBearerTokenHandler.SetEmail(user.Email);
                 StateManager.setActiveUserBase(user);
                 oTPVerified = true;
                 NavigationManager.NavigateTo(RedirectSuccessLogin);

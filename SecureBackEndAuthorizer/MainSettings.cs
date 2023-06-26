@@ -17,5 +17,11 @@ namespace SecureBackEndAuthorizer
         public static string JWTSecretKey = "RONALD00OSIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU";
         public static string JWTAudience = "Penyidang";
         public static string JWTIssuer = "Jamiel";
+
+
+        public static int OTPlength = 6;
+        public static int OTPtimeout = 300;
+        public static string OTPSecretKey = "RONALD00OSIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU";
+
     }
 }

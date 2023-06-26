@@ -8,7 +8,7 @@ namespace CommonModelsLib
 {
     public class ResetObj
     {
-        public string email { get; set; }
+        public string Id { get; set; }
         public string OTP { get; set; }
     }
 }

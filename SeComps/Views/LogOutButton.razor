@@ -1,19 +1,36 @@
 ﻿@using Blazored.LocalStorage
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.JSInterop
 @inject ILocalStorageService LocalStorageService
 @inject NavigationManager NavigationManager
-
-<div class="nav-item px-3">
-    <NavLink class="nav-link" @onclick="logOut" >
-        <span class="oi oi-list-rich" aria-hidden="true"></span> LogOut
-    </NavLink>
-</div>
+@inject IJSRuntime JsRuntime
+@attribute [Authorize]
+@using Microsoft.AspNetCore.Components.Authorization
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <Authorized>
+            <div class="@DivClass">
+                <NavLink class="nav-link" @onclick="logOut" >
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> LogOut
+                </NavLink>
+            </div>
+        </Authorized>
+        <NotAuthorized>
+        </NotAuthorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>
 @code {
     [Parameter]
     public string RedirectSuccessLogout { set; get; } = "/";
+    
+    [Parameter]
+    public string DivClass { set; get; } = "nav-item px-3";
     private async void logOut()
     {
         var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
         await jwtBearerTokenHandler.ClearToken();
+        
+        await JsRuntime.InvokeVoidAsync("alert", "Logged Out/Session Expired. Please Log In!");
         NavigationManager.NavigateTo(RedirectSuccessLogout);
     }
 }

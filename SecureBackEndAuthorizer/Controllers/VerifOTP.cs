@@ -15,7 +15,7 @@ public class VerifOTP : Controller
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<bool> VerifOTPTask([FromBody] ResetObj resetOBj)
     {
-        var user = await UserContext.GetUserBaseByEmail(resetOBj.email);
+        var user = await UserContext.GetUserBaseByEmail(resetOBj.Id);
 
         var returnObj = await StaticOTP.VerifyOTPAsync(user.Username, resetOBj.OTP);
         return returnObj;
