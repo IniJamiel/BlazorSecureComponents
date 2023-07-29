@@ -22,6 +22,7 @@ namespace CommonModelsLib
         [RegularExpression("^[0-9]*$")]
         public string PhoneNumber { get; set; } = "";
 
+        public bool Locked { get; set; } = false;
         public Tuple<bool, string> Validate()
         {
             List<String> errorList = new List<String>();
