@@ -33,10 +33,14 @@
             </div>
         </div>
         <!-- Submit button -->
-            <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="login">Sign in</button>
+            <button type="button" class="btn btn-primary w-100 btn-block mb-4" disabled ="@locked" @onclick="login">Sign in</button>
             @if (passwordWrong)
             {
                 <p class="text-danger">*Credential is Incorrect!</p>
+            }
+            @if (locked)
+            {
+                <p class="text-danger">*User is locked, please reset password!</p>
             }
         }
         @if (!oTPVerified && passwordVerified)
@@ -80,6 +84,7 @@
     private string ID = "";
     private string Password = "";
     private string PasswordEncrypted = "";
+    private bool locked = false;
 
     [Parameter]
     public bool EnableOTP { set; get; } = true;
@@ -99,6 +104,12 @@
                 PropertyNameCaseInsensitive = true
             };
         UserBase? usera = string.IsNullOrEmpty(a) ? null : JsonSerializer.Deserialize<UserBase?>(a, options);
+        if (usera != null && usera.Locked)
+        {
+            locked = true;
+
+            return;
+        }
         if (usera != null)
         {
             passwordVerified = true;
@@ -127,6 +138,7 @@
             var option = new JsonSerializerOptions();
             option.PropertyNameCaseInsensitive = true;
             UserBaseWithToken? user = await JsonSerializer.DeserializeAsync<UserBaseWithToken?>(await response.Content.ReadAsStreamAsync(), option);
+            
             if (user != null)
             {
                 var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
