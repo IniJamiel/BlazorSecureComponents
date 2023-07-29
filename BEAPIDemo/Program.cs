@@ -50,7 +50,7 @@ builder.Services.AddAuthentication(options =>
     {
         // Set your token validation parameters
         ValidateIssuer = true,
-        ValidIssuer =  MainSettings.JWTIssuer,
+        ValidIssuer = MainSettings.JWTIssuer,
         ValidateAudience = true,
         ValidAudience = MainSettings.JWTAudience,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(MainSettings.JWTSecretKey)),
@@ -69,12 +69,8 @@ app.Use(async (context, next) =>
     await next();
 });
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseHttpsRedirection();
