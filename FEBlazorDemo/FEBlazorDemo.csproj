@@ -9,17 +9,37 @@
 
 	<ItemGroup>
 		<PackageReference Include="Blazor.Markdown" Version="1.0.0" />
+		<PackageReference Include="Blazored.LocalStorage" Version="4.3.0" />
 		<PackageReference Include="Google.Apis.Sheets.v4" Version="1.60.0.3071" />
+		<PackageReference Include="Isopoh.Cryptography.Argon2" Version="1.1.12" />
 		<PackageReference Include="Markdig" Version="0.31.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.18" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.19" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.19" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
 		<PackageReference Include="ReverseMarkdown" Version="3.25.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.31.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\DemoModel\DemoModel.csproj" />
-		<ProjectReference Include="..\SeComps\SeComps.csproj" />
+	  <Reference Include="../Lib/CommonModelsLib">
+	    <HintPath>Lib\CommonModelsLib.dll</HintPath>
+		  <EmbedInteropTypes></EmbedInteropTypes>
+	  </Reference>
+	  <Reference Include="../Lib/DemoModel">
+	    <HintPath>Lib\DemoModel.dll</HintPath>
+		  <EmbedInteropTypes></EmbedInteropTypes>
+
+	  </Reference>
+	  <Reference Include="../Lib/SeComps">
+	    <HintPath>Lib\SeComps.dll</HintPath>
+		  <EmbedInteropTypes></EmbedInteropTypes>
+
+	  </Reference>
 	</ItemGroup>
+
+
 
 	<ItemGroup>
 		<ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
