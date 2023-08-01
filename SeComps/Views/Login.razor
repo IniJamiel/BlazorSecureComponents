@@ -104,13 +104,12 @@
                 PropertyNameCaseInsensitive = true
             };
         UserBase? usera = string.IsNullOrEmpty(a) ? null : JsonSerializer.Deserialize<UserBase?>(a, options);
-        if (usera != null && usera.Locked)
+        if (usera is {Locked: true })
         {
             locked = true;
-
             return;
         }
-        if (usera != null)
+        else if (usera is {Locked: false })
         {
             passwordVerified = true;
             passwordWrong = false;

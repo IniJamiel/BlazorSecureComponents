@@ -29,7 +29,7 @@ builder.Services.AddScoped<HttpClient>(sp =>
 {
     var httpClient = new HttpClient
     {
-        BaseAddress = new Uri("https://localhost:7028/")
+        BaseAddress = new Uri("https://beapidemo.notincan.xyz/")
     };
     return httpClient;
 });
