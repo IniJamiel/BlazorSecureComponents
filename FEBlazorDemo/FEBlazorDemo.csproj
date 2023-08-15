@@ -23,17 +23,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Reference Include="../Lib/CommonModelsLib">
-	    <HintPath>Lib\CommonModelsLib.dll</HintPath>
-		  <EmbedInteropTypes></EmbedInteropTypes>
-	  </Reference>
+	  <ProjectReference Include="..\CommonModels\CommonModelsLib.csproj" />
+	  <ProjectReference Include="..\SeComps\SeComps.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Reference Include="../Lib/DemoModel">
 	    <HintPath>Lib\DemoModel.dll</HintPath>
-		  <EmbedInteropTypes></EmbedInteropTypes>
-
-	  </Reference>
-	  <Reference Include="../Lib/SeComps">
-	    <HintPath>Lib\SeComps.dll</HintPath>
 		  <EmbedInteropTypes></EmbedInteropTypes>
 
 	  </Reference>

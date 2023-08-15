@@ -1,0 +1,82 @@
+﻿@using System.Net.Http.Json
+@using System.Text.Json
+@using Blazored.LocalStorage
+@inject HttpClient Http
+@using CommonModelsLib
+@using SeComps.UtilLib
+@inject NavigationManager NavigationManager
+@inject ILocalStorageService LocalStorageService
+
+
+<div class = "@DivClass">
+    <h2>
+        @TitleText
+    </h2>
+    @if (String.IsNullOrWhiteSpace(userName))
+    {
+        <div class="form-outline mb-4">
+            <label class="form-label" for="form2Example1">UserName</label>
+            <input type="email" @bind="userName" id="form2Example1" class="form-control" />
+        </div>
+        <button type="button" class="btn btn-primary w-100 btn-block mb-4" @onclick="RequestOTP">Sign in</button>
+    }
+
+</div>
+
+@code {
+    [Parameter]
+    public string DivClass { set; get; } = "";
+    [Parameter]
+    public string TitleText { set; get; } = "Login";
+    [Parameter]
+    public string ForgotPasswordRef { set; get; } = "/ForgotPassword";
+    [Parameter]
+    public string RedirectSuccessLogin { set; get; } = "/todoList";
+    [Parameter]
+    public string userName { set; get; } = "";
+    [Parameter]
+    public string OTP { set; get; } = "";
+
+
+
+    public async Task RequestOTP()
+    {
+        var uri = NavigationManager.Uri;
+        ReqSSO reqSSO = new();
+        reqSSO.url = uri;
+        reqSSO.username = userName;
+        var response = await Http.PostAsJsonAsync("api/login", reqSSO);
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        base.OnAfterRender(firstRender);
+        if (String.IsNullOrEmpty(userName))
+        {
+            var login = await tryLogin();
+        }
+    }
+
+    public async Task<bool> tryLogin()
+    {
+        var resetObj = new ResetObj();
+        resetObj.OTP = OTP;
+        resetObj.Id = userName;
+        var a = await Http.PostAsJsonAsync("api/verifSSO", resetObj);
+
+        var option = new JsonSerializerOptions();
+        option.PropertyNameCaseInsensitive = true;
+        UserBaseWithToken? user = await JsonSerializer.DeserializeAsync<UserBaseWithToken?>(await a.Content.ReadAsStreamAsync(), option);
+
+        if (user != null)
+        {
+            var jwtBearerTokenHandler = new JwtBearerTokenHandler(LocalStorageService);
+            await jwtBearerTokenHandler.SetTokenPersistent(user.Token);
+            await jwtBearerTokenHandler.SetEmail(user.Email);
+            StateManager.setActiveUserBase(user);
+            NavigationManager.NavigateTo(RedirectSuccessLogin);
+            return true;
+        }
+        
+        return false;
+    }
+}

@@ -6,6 +6,8 @@
 @using SeComps.UtilLib
 @inject NavigationManager NavigationManager
 @inject ILocalStorageService LocalStorageService
+
+
 <div class = "@DivClass">
     <h2>
         @TitleText
@@ -97,7 +99,7 @@
     {
         so.Password = Password;
         so.Id = ID;
-        var response = await Http.PostAsJsonAsync("api/login", so);
+        var response = await Http.PostAsJsonAsync("api/ReqSSO", so);
         var a = await response.Content.ReadAsStringAsync();
         var options = new JsonSerializerOptions
             {

@@ -1,0 +1,15 @@
+﻿@page "/sso"
+@page "/sso/{userName}/{sso}"
+
+
+
+<LoginSSO OTP="@sso" userName="@userName"></LoginSSO>
+
+@code {
+    [Parameter]
+    public string userName { get; set; } = "";
+
+    [Parameter]
+    public string sso { get; set; } = "";
+
+}
