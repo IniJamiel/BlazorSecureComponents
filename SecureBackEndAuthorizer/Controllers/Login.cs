@@ -22,8 +22,6 @@ namespace SecureBackEndAuthorizer.Controllers
         {
             var user = await UserContext.Obj.userBases.Where(a => (a.Email == slo.Id || a.Username == slo.Id))
                 .FirstOrDefaultAsync();
-
-
             if (!LoginAttempt.CheckLoginAttemptValid(slo.Id))
             {
                 var userContext = new UserContext(UserContext.options);

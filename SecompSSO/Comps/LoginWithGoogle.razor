@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+
+@inject NavigationManager Navigation
+@inject SignOutSessionStateManager SignOutManager
+
+<AuthorizeView>
+    <Authorized>
+        <button class="nav-link btn btn-primary" @onclick="BeginSignOut">Log out</button>
+    </Authorized>
+    <NotAuthorized>
+        <button class="btn btn-primary" @onclick ="BeginSignIn">Log in With Google</button>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private async Task BeginSignOut(MouseEventArgs args)
+    {
+        await SignOutManager.SetSignOutState();
+        Navigation.NavigateTo("authentication/logout");
+    }
+    private void BeginSignIn(MouseEventArgs args)
+    {
+        Navigation.NavigateTo("authentication/login");
+    }
+}

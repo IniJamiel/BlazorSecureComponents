@@ -29,6 +29,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoModel", "DemoModel\Demo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppTester", "ConsoleAppTester\ConsoleAppTester.csproj", "{D37925A6-28A4-4553-BB06-78B9736DCCBF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSOGoogleDemo", "SSOGoogleDemo\SSOGoogleDemo.csproj", "{A3BD6DAE-01E2-4C56-AD99-02E4DDD8B110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecompSSO", "SecompSSO\SecompSSO.csproj", "{CE1EF982-385D-46A2-BF8A-06214B429488}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37925A6-28A4-4553-BB06-78B9736DCCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BD6DAE-01E2-4C56-AD99-02E4DDD8B110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BD6DAE-01E2-4C56-AD99-02E4DDD8B110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BD6DAE-01E2-4C56-AD99-02E4DDD8B110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BD6DAE-01E2-4C56-AD99-02E4DDD8B110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1EF982-385D-46A2-BF8A-06214B429488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1EF982-385D-46A2-BF8A-06214B429488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1EF982-385D-46A2-BF8A-06214B429488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1EF982-385D-46A2-BF8A-06214B429488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
